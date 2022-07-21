@@ -2,7 +2,7 @@
 pipeline {
   agent { label 'Node1' }
   environment {
-    imagename = "nodeapp"
+    imagename = "webapp"
     registryCredential = "docker_registry"
     dockerImage = ''
     }
