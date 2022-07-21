@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/Abhijith769/test2.git', branch: 'main'])
+        git([url: 'https://github.com/Abhijith769/Deploy-a-nodeapp-with-jenkins.git', branch: 'main'])
  
       }
     }
