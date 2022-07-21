@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   web:
-    image: "nodeapp:latest"
+    image: "webapp:latest"
     ports:
             - "80:80"
